@@ -10,7 +10,7 @@ public class ElidgibleToVote {
             System.out.println("The person is not elidgible to vote");
         }
     }
-    public static boolean elidgible(int age){
+    public static boolean elidgible(int age) {
         return age > 17;
     }
 }
