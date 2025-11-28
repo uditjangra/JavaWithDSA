@@ -10,9 +10,9 @@ public class OddOrEven {
             System.out.println("The input is odd");
         }
         if(usingBitwiseOR(input)){
-            System.out.println("The input is Odd according to BitwiseOR");
-        }else{
             System.out.println("The input is Even according to BitwiseOR");
+        }else{
+            System.out.println("The input is Odd according to BitwiseOR");
         }
         if(usingBitwiseAND(input)){
             System.out.println("The input is Odd according to BitwiseAND");
@@ -20,9 +20,9 @@ public class OddOrEven {
             System.out.println("The input is Even according to BitwiseAND");
         }
         if(usingBitwiseXOR(input)){
-            System.out.println("The input is Odd according to BitwiseXOR");
-        }else{
             System.out.println("The input is Even according to BitwiseXOR");
+        }else{
+            System.out.println("The input is Odd according to BitwiseXOR");
         }
 
     }
